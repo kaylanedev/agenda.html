@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos - Maranguape</title>
+    <style>
+        /* --- 1. SELETORES POR ELEMENTO --- */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Hexadecimal */
+            margin: 0;
+            padding: 30px 15px;
+            color: #333333;
+        }
+        h1 {
+            font-family: 'Verdana', sans-serif; /* Fonte diferente para o h1 */
+            color: #1b4f72; /* Hexadecimal */
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #8e44ad; /* Hexadecimal */
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        li {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #21618c; /* Hexadecimal */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e74c3c; /* Hexadecimal */
+            text-decoration: underline;
+        }
+
+        /* --- 2. SELETOR POR ID --- */
+        #informacoes-contato {
+            background-color: rgb(213, 245, 227); /* Formato rgb() */
+            text-align: center;
+            padding: 25px;
+            margin-top: 35px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* --- 3. SELETORES POR CLASSE --- */
+        .descricao-inicial {
+            background-color: #d6eaf8; /* Hexadecimal */
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto 35px auto;
+        }
+
+        .titulo-evento {
+            letter-spacing: 2px; /* Espaçamento entre letras obrigatório */
+        }
+
+        .data-evento {
+            color: #c0392b; /* Hexadecimal */
+            font-weight: bold;
+        }
+
+        /* Classe para os cartões dos eventos */
+        .card-evento {
+            background-color: white; /* Nome de cor */
+            padding: 25px;
+            margin: 0 auto 25px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            border-top: 4px solid #1b4f72;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        /* --- CLASSE DE DESTAQUE REQUERIDA (evento-destaque) --- */
+        .evento-destaque {
+            background-color: rgb(253, 237, 236); /* Fundo diferente com rgb() */
+            border-top: 5px solid crimson; /* Nome de cor */
+            padding: 25px;
+            margin: 0 auto 25px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(207, 0, 0, 0.15);
+        }
+
+        .evento-destaque p {
+            color: darkred; /* Cor do texto alterada (Nome de cor) */
+            font-size: 18px; /* Tamanho do texto alterado */
+            font-weight: bold; /* Texto em negrito */
+        }
+    </style>
+</head>
+<body>
+    <h1>Circuito Cultural & Esportivo 2026</h1>
+    <p class="descricao-inicial">
+        Seja bem-vindo ao portal oficial dos grandes eventos da nossa cidade! Descubra abaixo as atrações que vão agitar nossa agenda escolar e comunitária com muita arte, música e esporte.
+    </p>
+<section class="card-evento evento-destaque">
+    <h2 class="titulo-evento">Desfile & Celebração da Consciência Negra</h2>
+    <p>Um evento dedicado á valorização da beleza, da cultura e da identidade negra, celebrando a diversidade, a autoestima e o orgulho das raizer afro-brasileiras.</p>
+    
+    <p>Data: <span class="data-evento">20 de Novembro de 2026</span></p>
+    <p>Local: ifce Campos Maranguape</p>
+
+    <h3>Atrações e Atividades:</h3>
+    <ul>
+        <li>Desfile de Moda Afro, Tranças e Turbantes com alunos e convidados.</li>
+        <li>Roda de Capoeira e apresentação de Dança Afro contemporânea.</li>
+        <li>Oficina de turbantes e exposição de arte afro-brasileira.</li>
+    </ul>
+
+</section>
+    <section class="evento-destaque">
+        <h2 class="titulo-evento">2. Festival de Música & Talentos da Serra</h2>
+        <p>O maior show cultural do ano reunindo bandas estudantis, grupos de dança e apresentações de voz e violão em um palco ao ar livre com estrutura profissional!</p>
+        
+        <p>Data: <span class="data-evento">21 de Novembro de 2026</span></p>
+        <p>Local: Praça capistrano de abreu</p>
+
+        <h3 style="color: #1b4f72; font-size: 20px;">Principais Atrações Confirmadas:</h3>
+        <ul style="padding-left: 20px;">
+            <li>Batalha de Bandas Locais com jurados convidados.</li>
+            <li>Apresentação de danças de grupos locais.</li>
+            <li>Feira de Artesanato entorno da praça.</li>
+        </ul>
+
+        <p>
+            Confira a lista completa dos participantes inscritos no 
+            <a href="https://www.ceara.gov.br" target="_blank">Portal da Cultura do Ceará</a>.
+        </p>
+    </section>
+    <section class="card-evento evento-destaque">
+        <h2 class="titulo-evento">3. Festival Viva Maranguape (175 Anos)</h2>
+        <p>O maior e mais aguardado evento do ano celebra o aniversário de 175 anos da emancipação política de Maranguape. Uma megaestrutura reunirá shows musicais, valorização da cultura local e o consagrado Festival Nacional do Humor, movimentando toda a região.</p>
+        
+        <p>Data: <span class="data-evento">Abertura em 08 de Novembro de 2026 (Atrações principais de 12 a 14 de Novembro)</span></p>
+        <p>Local: Espaço Agromap e Praça Capistrano de Abreu</p>
+
+        <h3 style="color: #1b4f72; font-size: 20px;">Atividades e Atrações em Destaque:</h3>
+        <ul style="padding-left: 20px;">
+            <li>Apresentações do Festival Nacional do Humor com grandes comediantes na Agromap.</li>
+            <li>Shows musicais ao vivo com artistas locais e nacionais.</li>
+            <li>Feira de artesanato, gastronomia cearense e corte do bolo comemorativo.</li>
+        </ul>
+
+        <p>
+            Confira a programação oficial e atualizações no 
+            <a href="https://www.maranguape.ce.gov.br" target="_blank">Portal da Prefeitura Municipal de Maranguape</a>.
+        </p>
+    </section>
+
+    <!-- SEÇÃO FINAL DE CONTATO -->
+    <section id="informacoes-contato">
+        <h2>Fale Conosco</h2>
+        <p style="text-align: center;">
+            Dúvidas, inscrições ou mais informações sobre a programação? Envie uma mensagem para <strong>kaylane.rebeca63@aluno.ifce.edu.br</strong> ou ligue para <strong>(85) 921490873</strong>.
+        </p>
+    </section>
+
+</body>
+</html>
